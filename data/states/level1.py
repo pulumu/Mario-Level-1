@@ -190,6 +190,16 @@ class Level1(tools._State):
         brick30 = bricks.Brick(7245, 365)
         brick31 = bricks.Brick(7331, 365)
 
+        brick32  = bricks.Brick(858 + 43,  365 - 43)
+        brick33 = bricks.Brick(858 + 43 * 2,  365 - 43 *2)
+        brick34 = bricks.Brick(858+ 43 * 3,  365 - 43 * 3)
+        brick35 = bricks.Brick(858 + + 43 * 4,  365  - 43 * 4)
+        brick36 = bricks.Brick(858+ 43 * 5,  365  - 43 * 5)
+        brick37  = bricks.Brick(858+ 43 * 6,  365 - 43 * 6)
+        brick38  = bricks.Brick(858 + 43 * 7,  365 - 43 * 7)
+        brick39 = bricks.Brick(858+ 43 * 8,  365 -  43 * 7)
+        brick40 = bricks.Brick(858+ 43 * 9,  365 - 43 * 7)
+
         self.brick_group = pg.sprite.Group(brick1,  brick2,
                                            brick3,  brick4,
                                            brick5,  brick6,
@@ -205,7 +215,12 @@ class Level1(tools._State):
                                            brick25, brick26,
                                            brick27, brick28,
                                            brick29, brick30,
-                                           brick31)
+                                           brick31, brick32,
+                                           brick32, brick33,
+                                           brick34, brick35,
+                                           brick36, brick37,
+                                           brick38, brick39,
+                                           brick40)
 
 
     def setup_coin_boxes(self):
