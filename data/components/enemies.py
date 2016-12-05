@@ -20,8 +20,7 @@ class Enemy(pg.sprite.Sprite):
         self.animate_timer = 0
         self.death_timer = 0
         self.gravity = 1.5
-        self.state = c.WALK
-
+        self.state = c.JUMP
         self.name = name
         self.direction = direction
         setup_frames()
