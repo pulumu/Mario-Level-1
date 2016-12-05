@@ -9,7 +9,7 @@ ORIGINAL_CAPTION = "Super Mario Bros 1-1"
 
 ## COLORS ##
 
-#            R    G    B
+#                R    G    B
 GRAY         = (100, 100, 100)
 NAVYBLUE     = ( 60,  60, 100)
 WHITE        = (255, 255, 255)
@@ -29,7 +29,7 @@ GOLD         = (255, 215,   0)
 
 BGCOLOR = WHITE
 
-SIZE_MULTIPLIER = 2.5
+SIZE_MULTIPLIER = 5
 BRICK_SIZE_MULTIPLIER = 2.69
 BACKGROUND_MULTIPLER = 2.679
 GROUND_HEIGHT = SCREEN_HEIGHT - 62
